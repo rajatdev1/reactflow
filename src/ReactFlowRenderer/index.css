@@ -1,0 +1,22 @@
+.react-flow__edge-path {
+    stroke-dasharray: 0 !important;
+    stroke-width: 2px !important; /* Adjust the width as per your requirement */
+    stroke: red !important;
+  }
+
+
+
+  .react-flow-renderer-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    padding: 10px;
+    width: 200px;
+    background-color: #f0f0f0;
+  }
+  
+  .react-flow-renderer {
+    flex-grow: 1;
+  }
